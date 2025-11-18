@@ -2,3 +2,4 @@
 **/*.rs.bk
 Cargo.lock
 lcov.info
+process-repo.log

@@ -18,7 +18,7 @@ path = ".."
 features = ["arbitrary", "ringbuffer"]
 
 # Prevent this from interfering with workspaces
-[workspace]
+#[workspace]
 members = ["."]
 
 [[bin]]

@@ -3,7 +3,7 @@ name = "sized-chunks"
 version = "0.7.0"
 authors = ["Bodil Stokke <bodil@bodil.org>"]
 edition = "2018"
-rust-version = "1.51.0"
+# rust-version = "1.51.0"
 license = "MPL-2.0+"
 description = "Efficient sized chunk datatypes"
 repository = "https://github.com/bodil/sized-chunks"
@@ -26,3 +26,5 @@ bitmaps = { version = "3.1.0", default-features = false }
 array-ops = { version = "0.1.0", optional = true }
 refpool = { version = "0.4.3", optional = true }
 arbitrary = { version = "1.0.2", optional = true }
+
+#[workspace]
